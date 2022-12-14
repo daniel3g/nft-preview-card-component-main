@@ -8,6 +8,9 @@
 }
 
 body {
+    display: grid;
+    place-items: center;
+    height: 100vh;
     background-color: #0D1A2D;
 }
 
@@ -17,7 +20,7 @@ main {
     width: 280px;
     height: 470px;
     background-color: #14273E;
-    margin: 60px auto;
+    margin: auto;
     padding: 20px;
     border-radius: 12px;
 }
